@@ -434,3 +434,33 @@ http://localhost:18081/admin/api/staff?firstName=jo
 テキストエリアに文字を入力し、検索を再度クリックしてみると、検索結果が絞り込めました。
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/search_9.png "")
+
+##### Enter Keyで検索できるようにする
+
+インプットフィールドを入力後、`Enter` キーで検索したいので、機能を追加します。
+
+インプットフィールドにキーイベントを追加します。
+
+* 変更前
+
+```html
+          <div class="control">
+            <input v-model="firstName" type="text" id="firstName" name="firstName" class="input" /> <!-- //<---- 変更 -->
+          </div>
+```
+
+* 変更後
+
+`@keydown.enter` でイベントを追加します。
+
+```html
+          <div class="control">
+            <input @keydown.enter="search" v-model="firstName" type="text" id="firstName" name="firstName" class="input" />
+          </div>
+```
+
+検索ワードを追加して、`Enter` キーを入力してみましょう。
+
+先ほどと同様に検索できるはずです。
+
+![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/search_9.png "")
