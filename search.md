@@ -564,8 +564,6 @@ success Saved 0 new dependencies.
 
 * 変更後
 
-`@keydown.enter` でイベントを追加します。
-
 ```html
         <div class="field is-grouped is-grouped-right">
           <p class="control">

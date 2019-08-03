@@ -4,41 +4,41 @@ vue-cliでアプリケーションを作成・起動します。
 
 ### vue cli でアプリケーションを作成する
 
-> 以下コマンドでアプリケーションを作成する
+以下コマンドでアプリケーションを作成する
 
 ```
 $ vue create sample-app
 ```
 
-> `Manually select features` を選択
+`Manually select features` を選択
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_1.png "")
 
-> `Unit Testing` を追加で選択する ※spaseキーで選択
+`Unit Testing` を追加で選択する ※spaseキーで選択
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_2.png "")
 
-> 構文解析は `default` のまま
+構文解析は `default` のまま
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_3.png "")
 
-> `Lint and fix on commit` を追加選択 ※自動的に定型的な構文エラーを修正してくれる
+`Lint and fix on commit` を追加選択 ※自動的に定型的な構文エラーを修正してくれる
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_4.png "")
 
-> 単体テストツールは `Jest` を選択
+単体テストツールは `Jest` を選択
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_5.png "")
 
-> 設定ファイルは `default` のまま
+設定ファイルは `default` のまま
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_6.png "")
 
-> 今回作成したプロジェクト設定を保存するか?  `N` を選択
+今回作成したプロジェクト設定を保存するか?  `N` を選択
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_1_7.png "")
 
-> 以下のようにアプリケーションが作成される
+以下のようにアプリケーションが作成される
 
 ```
 （....中略....）
@@ -58,14 +58,14 @@ success Saved lockfile.
 
 ### アプリケーションを起動する
 
-> 作成時の最後のメッセージに従い、コマンドを実行
+作成時の最後のメッセージに従い、コマンドを実行
 
 ```
 $ cd sample-app
 $ yarn serve
 ```
 
-> 以下のとおりアプリケーションが起動する
+以下のとおりアプリケーションが起動する
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_2.png "")
 
