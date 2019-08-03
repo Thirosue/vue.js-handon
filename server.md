@@ -42,6 +42,12 @@ networks:
     driver: bridge
 ```
 
++ 作業断面
+
+対象ブランチ: `server/1`
+
+https://github.com/Thirosue/vue.js-handon-app/tree/server/1
+
 ### サーバー起動
 
 以下コマンドでサーバーを起動する

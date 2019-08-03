@@ -75,6 +75,12 @@ http://localhost:8080/ へブラウザで接続すると、
 
 サンプルアプリケーションが表示される
 
++ 作業断面
+
+対象ブランチ: `startup/1` 
+
+https://github.com/Thirosue/vue.js-handon-app/tree/startup/1
+
 ### サンプルアプリの編集
 
 `src/App.vue` を開いて、以下メッセージを編集
@@ -104,3 +110,10 @@ http://localhost:8080/ へブラウザで接続すると、
 編集して、保存すると、画面に即座に反映される
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/startup_4.png "")
+
++ 作業断面
+
+対象ブランチ: `startup/2` 
+
+https://github.com/Thirosue/vue.js-handon-app/tree/startup/2
+

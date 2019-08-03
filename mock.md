@@ -173,6 +173,12 @@ http://localhost:8080/ に即座に反映され、
 
 のとおり、スタイルが適応されていない状態で表示される
 
++ 作業断面
+
+対象ブランチ: `mock/1` 
+
+https://github.com/Thirosue/vue.js-handon-app/tree/mock/1
+
 ### CSSの読み込み
 
 `public/index.html` を編集し、`CDN` より `CSS Framework` を読み込む
@@ -258,3 +264,9 @@ http://localhost:8080/ にスタイルが適応される
   color: #2c3e50;
   margin-top: 60px;
 ```
+
++ 作業断面
+
+対象ブランチ: `mock/2` 
+
+https://github.com/Thirosue/vue.js-handon-app/tree/mock/2

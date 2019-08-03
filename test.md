@@ -25,9 +25,15 @@ Ran all test suites.
 
 正常終了したら、 `tests/unit/example.spec.js` は不要なため、`tests/unit/example.spec.js_` にリネームしてください。
 
++ 作業断面
+
+対象ブランチ: `test/1`
+
+https://github.com/Thirosue/vue.js-handon-app/tree/test/1
+
 ### コンテンツの確認
 
-`tests/unit/app.spec.js` は、元々存在した `HelloWorld.vue` をテストしているため、同様に以下のとおり変更します。
+`tests/unit/app.spec.js` は、元々存在した `HelloWorld.vue` をテストしているため、参考にして以下のとおり変更します。
 
 * 変更前
 
@@ -84,6 +90,12 @@ Time:        0.815s, estimated 1s
 Ran all test suites.
 ✨  Done in 1.69s.
 ```
+
++ 作業断面
+
+対象ブランチ: `test/2`
+
+https://github.com/Thirosue/vue.js-handon-app/tree/test/2
 
 ### 全件検索のテスト
 
@@ -242,7 +254,7 @@ $ vue-cli-service test:unit
 
 理由は、APIコールは非同期処理のため、mockを `Promise` [https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise] で実装したためです。
 
--> 結果検証時に、APIの結果が返っていない（＝非同期処理が終了していない）していないためです。
+-> 結果検証時に、APIの結果の描画が完了（＝非同期処理が終了していない）していないためです。
 
 この問題を解決するため、非同期処理を解決するためのライブラリ `flush-promises` を追加します。
 
@@ -343,6 +355,11 @@ Ran all test suites.
 
 ![](https://s3-ap-northeast-1.amazonaws.com/vue.js-handon-2019/test_1.png "")
 
++ 作業断面
+
+対象ブランチ: `test/3`
+
+https://github.com/Thirosue/vue.js-handon-app/tree/test/3
 
 ### スナップショット（＝HTMLダンプ）の付き合わせ
 
@@ -487,6 +504,12 @@ $ vue-cli-service test:unit
 出力されるHTMLの変更を検知し、テストが失敗することを確認できたでしょう。
 
 CSSによるデザイン崩れは検知できませんが、内部ロジックの変更によるデグレ検知に役立つ機能なのでプロジェクト適応を検討してみてください。
+
++ 作業断面
+
+対象ブランチ: `test/4`
+
+https://github.com/Thirosue/vue.js-handon-app/tree/test/4
 
 #### スナップショット更新
 
