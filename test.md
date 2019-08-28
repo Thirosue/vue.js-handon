@@ -518,3 +518,27 @@ https://github.com/Thirosue/vue.js-handon-app/tree/test/4
 ```
 $ ./node_modules/.bin/jest --updateSnapshot // <---- windows用に読み替え
 ```
+
+※(PowerShell)で実施すれば、そのまま実行できます。
+
+```
+PS C:\root\to\project\directory\sample-app>  ./node_modules/.bin/jest --updateSnapshot
+ PASS  tests/unit/app.spec.js
+  App.vue
+    √ タイトルが表示されること (28ms)
+    √ 全件検索を実行したとき、検索結果が0件以上となること (35ms)
+    √ snapshot (9ms)
+
+ › 1 snapshot updated.
+
+ ～～～　console.log略　～～～～
+
+Snapshot Summary
+ › 1 snapshot updated from 1 test suite.
+
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   1 updated, 1 total
+Time:        2.14s
+Ran all test suites.
+```
